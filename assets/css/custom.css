@@ -1,4 +1,17 @@
 /* HEADER SECTION STYLES HERE */
+
+h2 {
+  font-family: "BOOKOS";
+  font-weight: 700;
+  font-size: 4.2rem;
+  color: #173141;
+}
+p {
+  font-family: "BOOKOS";
+  font-weight: 400;
+  font-size: 1.9rem;
+  color: #173141;
+}
 .header-section {
   background: url(../images/Wood\ -\ Horizontal.png) no-repeat center center;
 }
@@ -72,7 +85,6 @@
   background: url(../images/footer-bg.png) repeat-y center center;
   color: #ffffff;
   text-align: center;
-  padding: 1.8rem 0;
   padding-bottom: 2.5rem;
 }
 .footer-section p {
@@ -87,6 +99,16 @@
   display: block;
   margin-top: 4rem;
 }
+.about-banner {
+  padding: 0;
+}
+.about-content .about-bio p {
+  font-size: 1.9rem;
+  font-weight: 400;
+  padding-right: 2rem;
+  line-height: 3.3rem;
+}
+
 .about-message {
   background: #173141;
 }
@@ -98,7 +120,10 @@
   text-align: center;
 }
 .about-section {
-  background: url(../images/about-bg.png) no-repeat center center;
+  display: block;
+  background: url(../images/about-bg.png) repeat-y;
+  background-size: cover;
+  background-position: center center;
 }
 .about-section h3 {
   font-size: 3.2rem;
